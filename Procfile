@@ -1,0 +1,1 @@
+worker: python pi-saurus.py
