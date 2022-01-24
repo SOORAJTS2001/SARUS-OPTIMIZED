@@ -1,0 +1,1 @@
+web: gunicorn edx_django.wsgi --log-file -

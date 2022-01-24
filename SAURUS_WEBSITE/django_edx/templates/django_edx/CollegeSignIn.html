@@ -1,0 +1,291 @@
+{% extends 'django_edx/layout.html' %}
+{% load crispy_forms_tags %}
+{%block mess%}
+<div class="message">
+{% if messages %}
+      {% for message in messages %}
+      <div class="alert alert-{{message.tags}}" role="alert">
+        {{message}}
+      </div>
+      {% endfor %}
+      {% endif %}
+      </div> 
+{%endblock%}
+{%block body%}
+<h1>College Sign In</h1>
+{% load crispy_forms_tags %}
+{% if form %} 
+<div class="col-md-4">
+<form  method="POST" class="form-group">
+  {% csrf_token %}
+    {{form|crispy}}
+    <input type="submit" class="btn btn-primary" value="Add item">
+    </form>
+  </div>
+{% endif %}
+{% if Sign_In %} 
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta http-equiv="Content-Language" content="en">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <title>Stud-o-Saurus: Dashboard</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no, shrink-to-fit=no" />
+    <meta name="description" content="This is an example dashboard created using build-in elements and components.">
+    <meta name="msapplication-tap-highlight" content="no">
+<link href="https://demo.dashboardpack.com/architectui-html-free/main.css" rel="stylesheet"></head>
+<body>
+    <div class="app-container app-theme-white body-tabs-shadow fixed-sidebar fixed-header">
+        <div class="app-header header-shadow">
+            <div class="app-header__logo">
+                <a style="font-family: 'Grand Hotel', cursive;" class="text-primary text-center h2 position-absolute top-50 start-50 translate-middle">Studo-Saurus</a>
+                <div class="header__pane ml-auto">
+                    
+                </div>
+            </div>
+            <div class="app-header__mobile-menu">
+                
+            </div>
+            <div class="app-header__menu">
+                <span>
+                    <button type="button" class="btn-icon btn-icon-only btn btn-primary btn-sm mobile-toggle-header-nav">
+                        <span class="btn-icon-wrapper">
+                           
+                        </span>
+                    </button>
+                </span>
+            </div>    <div class="app-header__content">
+                <div class="app-header-left">
+                    <div class="search-wrapper">
+                        
+                        <button class="close"></button>
+                    </div>
+                          
+                </div>
+            
+               
+            </div>
+        </div>                   
+     
+         
+               
+                 <div class="app-main__outer app-main">
+                    <div class="app-main__inner">
+                        <div class="app-page-title " >
+                            <div class="page-title-wrapper " style="background-color: rgba(250, 235, 215, 0.435); padding: 40px;">
+                                <div class="page-title-heading">
+                                    <div class="page-title-icon">
+                                        <i class="fas fa-school icon-gradient bg-mean-fruit"></i>
+                                    </div>
+                                    <div>TKM College of Engineering
+                                        <div class="page-title-subheading">All the data about the bot
+                                        </div>
+                                    </div>
+                                </div>
+                                </div>
+                        
+                        </div>           
+                        
+                       <!-- XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX -->
+                       <!-- XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX -->
+                       <!-- XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX -->
+
+                       <!-- -----------------------------------BLOCK START ------------------------------------------------->
+
+                       <!-- XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX -->
+                       <!-- XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX -->
+                       <!-- XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX -->
+                       <!-- XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX -->
+
+                        
+                        <hr style="height:5px;border:none;color:#333;background-color:#333;" />
+
+
+                        <h1 class="display-4">EEE B 2019-2024</h1><br>
+                        <div class="row">
+                            <div class="col-md-6 col-xl-4">
+                                <div class="card mb-3 widget-content bg-midnight-bloom">
+                                    <div class="widget-content-wrapper text-white">
+                                        <div class="widget-content-left">
+                                            <div class="widget-heading"> Stored images</div>
+                                            <div class="widget-subheading"> 2 MB</div>
+                                        </div>
+                                        <div class="widget-content-right">
+                                            <div class="widget-numbers text-white"><span>8</span></div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-6 col-xl-4">
+                                <div class="card mb-3 widget-content bg-arielle-smile">
+                                    <div class="widget-content-wrapper text-white">
+                                        <div class="widget-content-left">
+                                            <div class="widget-heading">Stored pdfs</div>
+                                            <div class="widget-subheading text-dark">1 MB</div>
+                                        </div>
+                                        <div class="widget-content-right">
+                                            <div class="widget-numbers text-white"><span>2</span></div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-6 col-xl-4">
+                                <div class="card mb-3 widget-content bg-grow-early">
+                                    <div class="widget-content-wrapper text-white">
+                                        <div class="widget-content-left">
+                                            <div class="widget-heading">No of text/links</div>
+                                            <div class="widget-subheading">2</div>
+                                        </div>
+                                        <div class="widget-content-right">
+                                            <div class="widget-numbers text-white"><span>2</span></div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                       
+                        </div>
+                        <div class="row">
+                            <div class="col-md-12 col-lg-6">
+                                <div class="mb-3 card">
+                                    
+                                  
+                                </div>
+                            </div>
+                            <div class="col-md-12 col-lg-6">
+                                <div class="mb-3 card">
+                                    
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            
+                            <div class="col-md-6 col-xl-4">
+                                <div class="card mb-3 widget-content">
+                                    <div class="widget-content-outer">
+                                        <div class="widget-content-wrapper">
+                                            <div class="widget-content-left">
+                                                <div class="widget-heading">Buzz Word </div>
+                                                <div class="widget-subheading">Command Me</div>
+                                            </div>
+                                            <div class="widget-content-right">
+                                                <div class="widget-numbers text-danger">8 times</div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            
+                        </div>
+
+
+
+
+                       <!-- XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX -->
+
+                       <!-- -----------------------------------  NFSW ------------------------------------------------->
+
+                       <!-- XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX -->
+                       
+                        <div class="row">
+                            <div class="col-md-12">
+                                <div class="main-card mb-3 card">
+                                    <div class="card-header">NFSW
+                                        
+                                    </div>
+                                    <div class="table-responsive">
+                                        <table class="align-middle mb-0 table table-borderless table-striped table-hover">
+                                            <thead>
+                                            <tr>
+                                                <th class="text-center">sl no</th>
+                                                <th>Name</th>
+                                            </tr>
+                                            </thead>
+                                            <tbody>
+                                            <tr>
+                                                <td class="text-center text-muted">#345</td>
+                                                <td>
+                                                    <div class="widget-content p-0">
+                                                        <div class="widget-content-wrapper">
+                                                            <div class="widget-content-left mr-3">
+                                                                <div class="widget-content-left">
+                                                                    <img width="40" class="rounded-circle" src="assets/images/avatars/4.jpg" alt="">
+                                                                </div>
+                                                            </div>
+                                                            <div class="widget-content-left flex2">
+                                                                <div class="widget-heading">Tejas</div>
+                                                                
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </td>
+                                                
+                                            <tr>
+                                                <td class="text-center text-muted">#345</td>
+                                                <td>
+                                                    <div class="widget-content p-0">
+                                                        <div class="widget-content-wrapper">
+                                                            <div class="widget-content-left mr-3">
+                                                                <div class="widget-content-left">
+                                                                    <img width="40" class="rounded-circle" src="assets/images/avatars/4.jpg" alt="">
+                                                                </div>
+                                                            </div>
+                                                            <div class="widget-content-left flex2">
+                                                                <div class="widget-heading">John kuruvila</div>
+                                                                
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </td>
+                                                
+                                            <tr>
+                                                <td class="text-center text-muted">#345</td>
+                                                <td>
+                                                    <div class="widget-content p-0">
+                                                        <div class="widget-content-wrapper">
+                                                            <div class="widget-content-left mr-3">
+                                                                <div class="widget-content-left">
+                                                                    <img width="40" class="rounded-circle" src="assets/images/avatars/4.jpg" alt="">
+                                                                </div>
+                                                            </div>
+                                                            <div class="widget-content-left flex2">
+                                                                <div class="widget-heading">Salman Khan</div>
+                                                                
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </td>
+                                                
+                                            </tr>
+                                            </tbody>
+                                        </table>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                       <!-- XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX -->
+                       <!-- XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX -->
+                       <!-- XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX -->
+
+                       <!-- -----------------------------------BLOCK END ------------------------------------------------->
+
+                       <!-- XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX -->
+                       <!-- XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX -->
+                       <!-- XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX -->
+                       
+
+                        
+                       
+                        
+                    </div>
+                    
+                   
+        </div>
+    </div>
+<script type="text/javascript" src="https://demo.dashboardpack.com/architectui-html-free/assets/scripts/main.js"></script></body>
+</html>
+{% endif %}
+{%endblock%}
